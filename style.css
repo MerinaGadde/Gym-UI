@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.nav1{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.nav1 i{
+    margin: 0 5px;
+}
+.nav1 a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 10px;
+    background-color: #e62228;
+}
+
+.nav2{
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+.nav2 div img{
+    height: 8vh;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/backGym.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h-text{
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 35%;
+}
+.h-text h1{
+    font-size: 3em;
+    font-family: 'Edu TAS Beginner', cursive;
+}
